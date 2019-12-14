@@ -15,6 +15,6 @@ A PowerShell script to disable and re-enable your plug-n-play device as if you d
   3. Open an elevated PowerShell prompt
   4. Run the script
 
-    & 'Path\To\Script\toggle-pnpdevice.ps1'
+    & 'Path\To\Clone\toggle-pnpdevice\toggle-pnpdevice.ps1'
 
   5. [Optional] Set up a Task Scheduler task to run the script automatically
