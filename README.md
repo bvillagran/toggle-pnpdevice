@@ -3,7 +3,7 @@ A PowerShell script to disable and re-enable your plug-n-play device as if you d
 
 ## Usage
 
-  1. Clone this repository (or just copy and paste the [script](/toggle-pnpdevice.ps1} somewhere really)
+  1. Clone this repository (or just copy and paste the [script](/toggle-pnpdevice.ps1) somewhere really)
 
     git clone https://github.com/bvillagran/toggle-pnpdevice.git
 
