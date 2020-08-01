@@ -12,7 +12,11 @@ A PowerShell script to disable and re-enable your plug-n-play device as if you d
     Get-PnpDevice | Format-List -Property FriendlyName
 
   3. Update the script to use the full *Friendly Name*
-  3. Open an elevated PowerShell prompt
+  4. Open an elevated PowerShell prompt
+  5. Set the execution policy of the local machine to be able to run scripts
+  
+    Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
+  
   4. Run the script
 
     & 'Path\To\Clone\toggle-pnpdevice\toggle-pnpdevice.ps1'
