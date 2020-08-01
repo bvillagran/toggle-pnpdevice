@@ -38,7 +38,10 @@ A PowerShell script to disable and re-enable your plug-n-play device as if you d
      *Actions*
      
      New... -> Action -> Start a program
-            -> Program/script -> Browse... -> Find and select your script
+            
+                Program/script -> C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+                
+                Add arguments  -> C:\path\to\script
              
      *Conditions*
      
